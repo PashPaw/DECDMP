@@ -11,6 +11,6 @@ The known commands are:
 | *n*L    | Load  from DECtape unit *n*.  This appears to be DECtape unit 0 usually.  It can be 1 according to some of the JOSS documentation. |
 | G       | Start execution of the program off of DECtape and after loading the address in the switch register.    In the case of JOSS, this would appear to be SWR address 200. |
 
-This is how far I’ve gotten, so far:
+This is how far I’ve gotten:
 
 ![decdmp](decdmp.jpg)
