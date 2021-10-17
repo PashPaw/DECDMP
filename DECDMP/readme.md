@@ -13,4 +13,4 @@ The known commands are:
 
 This is how far I’ve gotten, so far:
 
-![decdmp](D:\Documents\GitHub\PDP-6\DECDMP\decdmp.jpg)
+![decdmp](decdmp.jpg)
