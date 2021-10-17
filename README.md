@@ -1,2 +1,3 @@
 # PDP-6
-PDP-6 Related Stuff
+
+Currently only has a papertape image and source of 32k DECDMP from the SAILDART archive.
