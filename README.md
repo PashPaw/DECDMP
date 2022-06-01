@@ -31,7 +31,7 @@ r pip<cr>
 ```r macro<cr>
 ptp:_decdmp<cr>
 ```
-This should provide a bootable paper tape image for the KA10 or PDP-6 simulators.  It should also produce a listing file as DECDMP.LST.
+This should provide a bootable paper tape image for the KA10 or PDP-6 simulators.
 - Type ^C again and  shut down the simulator as usual with ^E, `set cty stop`, and `quit`.
 - For testing, run the PDP-6 simulator and attach the binary to the papertape reader.  Tell it to boot from ptr and use ^E, and then examine the memory contents.
 
