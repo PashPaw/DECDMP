@@ -18,7 +18,7 @@ This is how far I’ve gotten:
 
 ## Compilation instructions (written for TOPS-10 5.03):
 
-- Attach either decdmp.old or decdmp.new to the virtual paper tape reader in Richard Cornwell's KA10 simulator and attach a virtual papertape to the virtual paper tape punch.  For the binaries in the repo, these are the *.pt files.
+- Attach either decdmp.old or decdmp.new to the virtual paper tape reader in Richard Cornwell's KA10 simulator and attach a virtual papertape to the virtual paper tape punch.  For the binaries in the repo, these are *.bin files.
 - Run ` pdp10-ka mon503.ini` at a command prompt.
 - Sign into PPN [1,2] at the console.
 - At the . prompt for TOPS-10, type the following:
