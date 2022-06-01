@@ -32,7 +32,7 @@ This is how far I’ve gotten:
 - Next, type the following (MACRO will provide a * for a prompt like PIP):
   
   ```
-  r macro
+  r macro<cr>
   ptp:_decdmp<cr>
   ```
   
