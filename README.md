@@ -29,7 +29,7 @@ r pip<cr>
 - Type in the following in PIP:``` dsk:decdmp.mac_ptr:```. PIP should then read the text into a file on the virtual disk image.  Type ^C when done.
 - Next, type the following (MACRO will provide a * for a prompt like PIP):
 ```r macro<cr>
-ptp:_decdmp<cr>
+ptp: \*_\* decdmp
 ```
 This should provide a bootable paper tape image for the KA10 or PDP-6 simulators.
 - Type ^C again and  shut down the simulator as usual with ^E, `set cty stop`, and `quit`.
