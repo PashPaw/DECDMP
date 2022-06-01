@@ -19,16 +19,22 @@ This is how far I’ve gotten:
 ## Compilation instructions (written for TOPS-10 5.03):
 
 - Attach either decdmp.old or decdmp.new to the virtual paper tape reader in Richard Cornwell's KA10 simulator and attach a virtual papertape to the virtual paper tape punch.  For the binaries in the repo, these are *.bin files.
+
 - Run ` pdp10-ka mon503.ini` at a command prompt.
+
 - Sign into PPN [1,2] at the console.
+
 - At the . prompt for TOPS-10, type the following:
   
   ```assign
   assign ptp<cr>
   r pip<cr>
   ```
+
 - PIP should then bring up a * for the prompt.
+
 - Type in the following in PIP:``` dsk:decdmp.mac_ptr:```. PIP should then read the text into a file on the virtual disk image.  Type ^C when done.
+
 - Next, type the following (MACRO will provide a * for a prompt like PIP):
   
   ```
@@ -37,7 +43,9 @@ This is how far I’ve gotten:
   ```
   
   This should provide a bootable paper tape image for the KA10 or PDP-6 simulators.  It should also produce a listing file as DECDMP.LST.
+
 - Type ^C again and  shut down the simulator as usual with ^E, `set cty stop`, and `quit`.
+
 - For testing, run the PDP-6 simulator and attach the binary to the papertape reader.  Tell it to boot from ptr and use ^E, and then examine the memory contents.
 
 ## Special Thanks
@@ -47,4 +55,4 @@ To Lars Brinkhoff for assisting me with this and providing an earlier version of
 ## Todo
 
 - Figure out how to build the DECtape version mentioned in the [1965 Monitor manual](http://bitsavers.org/pdf/dec/pdp6/DEC-6-0-EX-SYS-UM-IP-PRE00_Multiprogramming_System_Manual_1965.pdf).  There appears to be two versions: one for paper tape and one that seems to be self-contained on a DECtape.
-- Attempt to make a DECDMP format DECtape.  Any attempt so far seems to have crashed the PDP-6 simulator.
+- Attempt to make a DECDMP format DECtape.  Any attempt to read a tape so far seems to have crashed the PDP-6 simulator.
