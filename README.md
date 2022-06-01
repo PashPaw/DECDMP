@@ -42,7 +42,7 @@ This is how far I’ve gotten:
 
 ## Special Thanks
 
-To @larsbrinkhoff for assisting me with this and providing an earlier version of DECDMP from SAILDART.
+To Lars Brinkhoff for assisting me with this and providing an earlier version of DECDMP from SAILDART.
 
 ## Todo
 
